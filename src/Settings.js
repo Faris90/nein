@@ -8,11 +8,11 @@ const value = Object.seal({
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
     listenerMaxLegacyProtocol: 18,
-    listeningPort: 443,
+    listeningPort: 3000,
 
     serverUpdateFrequency: 25,
     serverName: "An unnamed server",
-    serverGamemode: "FFA",
+    serverGamemode: "Last Man Standing",
     serverChatEnabled: true,
 
     worldMapX: 0,
