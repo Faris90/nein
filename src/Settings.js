@@ -11,8 +11,8 @@ const value = Object.seal({
     listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "An unnamed server",
-    serverGamemode: "Last Man Standing",
+    serverName: "Minions Mode",
+    serverGamemode: "FFA",
     serverChatEnabled: true,
 
     worldMapX: 0,
@@ -26,7 +26,7 @@ const value = Object.seal({
     worldPlayerDisposeDelay: 25 * 60,
 
     worldPlayerBotsPerWorld: 0,
-    worldMinionsPerPlayer: 0,
+    worldMinionsPerPlayer: 100,
     worldMaxPlayers: 50,
     worldMaxCount: 2,
     matchmakerNeedsQueuing: false,
@@ -51,8 +51,8 @@ const value = Object.seal({
     virusPushBoost: 120,
     virusMonotonePops: false,
 
-    ejectedSize: 43,
-    ejectingLoss: 48,
+    ejectedSize: 48,
+    ejectingLoss: 43,
     ejectDispersion: 0.3,
     ejectedCellBoost: 780,
 
@@ -75,7 +75,7 @@ const value = Object.seal({
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
-    playerMaxCells: 16,
+    playerMaxCells: 64,
 
     playerMoveMult: 1,
     playerSplitBoost: 780,
@@ -83,7 +83,7 @@ const value = Object.seal({
     playerNoMergeDelay: 15,
     /** @type {"old" | "new"} */
     playerMergeVersion: "old",
-    playerMergeTime: 30,
+    playerMergeTime: 0.1,
     playerMergeTimeIncrease: 0.02,
     playerDecayMult: 0.001
 });
